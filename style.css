@@ -1,0 +1,203 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #111;
+  padding-top: 70px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h2.section-title {
+  font-family: 'Unbounded', cursive;
+  font-size: 2.2rem;
+  color: #2a009c;
+}
+
+img {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
+
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://tattoo2me.com/cdn-cgi/imagedelivery/nDLZbBGIcmvx5JwFlQje1A/blog.tattoo2me.com/2020/11/Decoracao-para-estudio-de-tatuagem-4.jpg/w=9999') center/cover no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: flex-start;    
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;          
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.hero-content {
+  padding: 30px 40px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.hero-logo {
+  width: 400px;        
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.hero-content h1,
+.hero-content p,
+.hero-content a {
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.7);
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.btn-outline-light {
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: black;
+}
+
+.servicos-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+}
+
+.servicos-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.servicos-icon {
+  font-size: 3rem;
+  color: #2a009c;
+  margin-bottom: 20px;
+}
+
+.price-card {
+  background: linear-gradient(135deg, #2a009c, #4a00e0);
+  color: white;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.contact-info i {
+  color: #2a009c;
+  margin-right: 10px;
+}
+
+.map-container {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.cuidados-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cuidados-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cuidados-list li:last-child {
+  border-bottom: none;
+}
+
+.cuidados-list i {
+  color: #2a009c;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #000;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+  border: 1px solid #444;
+}
+
+.dark-mode .hero {
+  filter: brightness(0.7);
+}
+
+.dark-mode .section-title {
+  color: #a896ff;
+}
+
+.dark-mode .contact-info {
+  background-color: #2a2a2a;
+}
+
+.dark-mode .servicos-card {
+  background-color: #2a2a2a;
+  color: #f1f1f1;
+}
+
+.dark-mode .cuidados-list li {
+  border-bottom-color: #444;
+}
+
+.whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+  color: #FFF;
+  background-color: #128c7e;
+  transform: scale(1.1);
+}
+
+.whatsapp-float i {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .hero-logo {
+    width: 250px;
+  }
+}
